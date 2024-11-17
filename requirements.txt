@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+pillow
+numpy
+skfuzzy
+google-generativeai
+annotated-text

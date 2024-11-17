@@ -18,10 +18,10 @@ categories = ["healthy", "powdery", "rust"]
 @st.cache_resource
 def load_models():
     models = {
-        "CNN": load_model("models/cnn_model.keras"),
-        "VGG": load_model("models/vgg_model.keras"),
-        "Inception": load_model("models/inception_model.keras"),
-        "Xception": load_model("models/xception_model.keras"),
+        "CNN": load_model("cnn_model.keras"),
+        "VGG": load_model("vgg_model.keras"),
+        "Inception": load_model("inception_model.keras"),
+        "Xception": load_model("xception_model.keras"),
     }
     return models
 

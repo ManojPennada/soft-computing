@@ -6,3 +6,4 @@ google-generativeai
 st-annotated-text
 scikit-fuzzy
 scipy
+networkx

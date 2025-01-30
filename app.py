@@ -10,6 +10,7 @@ import google.generativeai as genai
 from annotated_text import annotated_text, annotation
 
 # Categories for predictions
+# comment updated 
 categories = ["healthy", "powdery", "rust"]
 
 # Load models (adjust paths to match your directory)
